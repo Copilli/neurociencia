@@ -1,4 +1,4 @@
-# Mente en Balance
+# Neurociencia
 
 Aplicacion web educativa sobre salud mental para estudiantes, docentes y familias.
 
@@ -38,6 +38,10 @@ Explicar temas de salud mental de forma clara, interactiva y con fuentes oficial
 3. En Build and deployment, selecciona Deploy from a branch.
 4. Elige la rama main y carpeta /(root).
 5. Guarda y espera el enlace publico.
+
+URL esperada con nombre de repo nuevo:
+
+- https://TU-USUARIO.github.io/neurociencia/
 
 ## Aviso
 
