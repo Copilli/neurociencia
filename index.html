@@ -1,32 +1,72 @@
-<!DOCTYPE html><button type="button" class="btn btn-primary">Primary</button>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="App web escolar sobre salud mental, organizada por paginas y con funciones claras.">
+  <title>Mente en Balance | Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="d-flex justify-content-center py-3">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="/index.html" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                <li class="nav-item"><a href="aboutUs/aboutUs.html" class="nav-link">About Us</a></li>
-            </ul>
-        </header>
-    </div>
-    <H1>Electric Save</H1>
-    <p>trastormo genrales y medicasion y la funcion</p>
-    <p>
-        es una apricasion para seber la mida de madicina y cantidares excacta de cada una de ellas
-    </p>
+  <main class="container py-4 py-md-5">
+    <nav class="navbar-wrap d-flex flex-wrap justify-content-between align-items-center p-3 mb-4">
+      <strong>Mente en Balance</strong>
+      <div class="d-flex gap-2">
+        <a href="index.html" class="btn btn-sm btn-success">Inicio</a>
+        <a href="temas.html" class="btn btn-sm btn-outline-success">Temas</a>
+        <a href="recursos.html" class="btn btn-sm btn-outline-success">Recursos</a>
+        <a href="aboutUs/aboutUs.html" class="btn btn-sm btn-outline-success">Equipo</a>
+      </div>
+    </nav>
 
+    <section class="hero mb-4 fade-in delay-1">
+      <h1>Mente en Balance</h1>
+      <p>
+        App educativa para explicar salud mental en la escuela con informacion concreta, organizada y confiable.
+      </p>
+    </section>
+
+    <section class="section-card p-4 mb-4 fade-in delay-2">
+      <h2 class="section-title">Que hace esta app</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <article class="kpi h-100">
+            <h3 class="h6">Temas</h3>
+            <p class="mb-2">Trastornos explicados por rasgos, deteccion y soluciones.</p>
+            <a href="temas.html" class="official-link">Abrir Temas</a>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="kpi h-100">
+            <h3 class="h6">Recursos</h3>
+            <p class="mb-2">Fuentes oficiales para respaldar exposiciones escolares.</p>
+            <a href="recursos.html" class="official-link">Abrir Recursos</a>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="kpi h-100">
+            <h3 class="h6">Equipo</h3>
+            <p class="mb-2">Presentacion breve del proyecto y de sus autores.</p>
+            <a href="aboutUs/aboutUs.html" class="official-link">Abrir Equipo</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-card p-4 fade-in delay-3">
+      <h2 class="section-title">Nota de seguridad</h2>
+      <p class="mb-0">
+        Esta app es educativa y no sustituye atencion profesional. Ante riesgo inmediato, usa emergencias locales (911).
+      </p>
+    </section>
+  </main>
 </body>
+
 </html>

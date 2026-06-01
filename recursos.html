@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos oficiales de salud mental y plan rapido de apoyo escolar.">
+  <title>Mente en Balance | Recursos Oficiales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="container py-4 py-md-5">
+    <nav class="navbar-wrap d-flex flex-wrap justify-content-between align-items-center p-3 mb-4">
+      <strong>Mente en Balance</strong>
+      <div class="d-flex gap-2">
+        <a href="index.html" class="btn btn-sm btn-outline-success">Inicio</a>
+        <a href="temas.html" class="btn btn-sm btn-outline-success">Temas</a>
+        <a href="recursos.html" class="btn btn-sm btn-success">Recursos</a>
+        <a href="aboutUs/aboutUs.html" class="btn btn-sm btn-outline-success">Equipo</a>
+      </div>
+    </nav>
+
+    <section class="hero mb-4">
+      <h1>Centro de recursos oficiales</h1>
+      <p>Consulta fuentes verificadas y crea un plan de accion rapido para escuela y familia.</p>
+    </section>
+
+    <section class="section-card p-4 mb-4">
+      <div class="row g-3 align-items-end">
+        <div class="col-md-8">
+          <label class="form-label" for="resourceSearch"><strong>Buscar recurso</strong></label>
+          <input id="resourceSearch" class="form-control input-clean" type="search"
+            placeholder="Ejemplo: depresion, adolescentes, ansiedad...">
+        </div>
+        <div class="col-md-4">
+          <label class="form-label" for="resourceFilter"><strong>Tipo</strong></label>
+          <select id="resourceFilter" class="form-select select-clean">
+            <option value="todos">Todos</option>
+            <option value="organismo">Organismo internacional</option>
+            <option value="guia">Guia educativa</option>
+            <option value="prevencion">Prevencion y apoyo</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="resourceContainer" class="row g-3"></div>
+    </section>
+
+    <section class="section-card p-4 my-4">
+      <h2 class="section-title">Plan de accion en 3 pasos</h2>
+      <ol class="mb-3">
+        <li>Detecta cambios persistentes por mas de 2 semanas.</li>
+        <li>Escucha y canaliza con orientacion escolar o un adulto responsable.</li>
+        <li>Si hay riesgo inmediato, activa emergencias locales (911).</li>
+      </ol>
+      <button id="copyPlanBtn" class="btn btn-success">Copiar plan para compartir</button>
+      <p id="copyStatus" class="small text-secondary mt-2 mb-0">Usalo en clases, reuniones o tutoria.</p>
+    </section>
+  </main>
+
+  <script src="recursos.js"></script>
+</body>
+
+</html>
